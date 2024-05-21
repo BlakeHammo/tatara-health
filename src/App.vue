@@ -19,9 +19,9 @@
 import NavBar from './components/NavBar.vue';
 import HomePage from './components/HomePage.vue'
 import AboutPage from './components/AboutPage.vue'
-//import BookingPage from './components/BookingPage.vue'
-//import ContactPage from './components/ContactPage.vue'
-//import FAQPage from './components/FAQPage.vue'
+import BookingPage from './components/BookingPage.vue'
+import ContactPage from './components/ContactPage.vue'
+import FAQPage from './components/FAQPage.vue'
 
 import { ref } from 'vue'
 

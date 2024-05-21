@@ -3,24 +3,15 @@
 <template>
     <div>
       <header>
-        <h1>Welcome to Tatara Health</h1>
+        <h1>Booking / Services</h1>
       </header>
       
       <main>
         <p>
-          At Tatara Health, we are committed to providing holistic and personalized naturopathic care to support your health and well-being.
+          Booking link (can provide the link when I sign up to my client management software) 
         </p>
         <p>
-          Explore our services, learn more about naturopathy, and book your appointment today!
-        </p>
-        <p>
-          First Page of Website
-        </p>
-        <p>
-          Bio and Qualifications
-        </p>
-        <p>
-          Link to Booking Page
+          Layout of different consultations (description of each and price) 
         </p>
       </main>
     </div>

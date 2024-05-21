@@ -3,24 +3,16 @@
 <template>
     <div>
       <header>
-        <h1>Welcome to Tatara Health</h1>
+        <h1>Contact Me</h1>
       </header>
       
       <main>
         <p>
-          At Tatara Health, we are committed to providing holistic and personalized naturopathic care to support your health and well-being.
+          Contact details (phone, email, address, etc) 
         </p>
         <p>
-          Explore our services, learn more about naturopathy, and book your appointment today!
-        </p>
-        <p>
-          First Page of Website
-        </p>
-        <p>
-          Bio and Qualifications
-        </p>
-        <p>
-          Link to Booking Page
+          Lots of other websites have those links where you can write your name and email and send a message through the webiste?? Maybe
+ look into this?? 
         </p>
       </main>
     </div>

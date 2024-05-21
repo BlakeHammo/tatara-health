@@ -13,6 +13,12 @@
         <p>
           More text here
         </p>
+        <p>
+          More in depth bio of me 
+        </p>
+        <p>
+          What is naturopathy? 
+        </p>
       </main>
     </div>
   </template>
