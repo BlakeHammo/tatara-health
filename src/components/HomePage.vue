@@ -3,7 +3,7 @@
 <template>
     <div>
       <header>
-        <h1>Welcome to Tatara Health</h1>
+        <img src="D:\Adelaide Uni Diploma\Projects\tatara-health\tatara-health\src\assets\Tatara-Health-Horizontal-Colour-Logo-RGB.jpg" alt="Tatara Health" id="Tatara-Banner">
       </header>
       
       <main>
@@ -35,13 +35,19 @@
   <style scoped>
   /* Add your styles for the homepage here */
   header {
-    background-color: #f0f0f0;
     padding: 20px;
     text-align:center;
   }
   
   main {
     padding: 20px;
+    
   }
+
+  #Tatara-Banner {
+    max-width: 100%;
+    height: auto;
+  }
+
   </style>
   

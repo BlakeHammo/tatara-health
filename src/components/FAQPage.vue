@@ -29,7 +29,6 @@
   <style scoped>
   /* Add your styles for the homepage here */
   header {
-    background-color: #f0f0f0;
     padding: 20px;
     text-align:center;
   }

@@ -27,8 +27,9 @@ const navigate = (page) => {
 .navbar {
   position: fixed;
   top: 0;
+  left:0;
   width: 100%;
-  background-color: #007bff; /* Primary color */
+  background-color: #FC9AF8; /* Primary color */
   color: white;
   padding: 1rem;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);

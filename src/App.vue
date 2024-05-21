@@ -1,6 +1,6 @@
 <template>
+  <NavBar @navigate="changePage"/>
   <div>
-    <NavBar @navigate="changePage"/>
     <header>
       Tatara Health
     </header>
@@ -39,7 +39,6 @@ const changePage = (page) => {
 <style scoped>
 /* Add your global styles here */
 header {
-  background-color: #f0f0f0;
   padding: 20px;
   text-align: center;
 }
