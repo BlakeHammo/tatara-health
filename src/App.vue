@@ -1,47 +1,47 @@
-<script setup>
-import HelloWorld from './components/HelloWorld.vue'
-import TheWelcome from './components/TheWelcome.vue'
-</script>
-
 <template>
-  <header>
-    <img alt="Vue logo" class="logo" src="./assets/logo.svg" width="125" height="125" />
+  <div>
+    <header>
+      Tatara Health
+    </header>
 
-    <div class="wrapper">
-      <HelloWorld msg="You did it!" />
-    </div>
-  </header>
-
-  <main>
-    <TheWelcome />
-  </main>
+    <main>
+      <HomePage v-if="currentPage === 'home'" />
+      <AboutPage v-if="currentPage === 'about'" />
+      <BookingPage v-if="currentPage === 'booking'" />
+      <ContactPage v-if="currentPage === 'contact'" />
+      <FAQPage v-if="currentPage === 'FAQ'" />
+    </main>
+  </div>
 </template>
 
+<script setup>
+import HomePage from './components/HomePage.vue'
+//import AboutPage from './components/AboutPage.vue'
+//import BookingPage from './components/BookingPage.vue'
+//import ContactPage from './components/ContactPage.vue'
+//import FAQPage from './components/FAQPage.vue'
+
+import { ref } from 'vue'
+
+const currentPage = ref('home') // Set default page to home
+
+// Function to change current page
+const changePage = (page) => {
+  currentPage.value = page
+}
+
+// Example: changePage('booking') to navigate to the booking page
+</script>
+
 <style scoped>
+/* Add your global styles here */
 header {
-  line-height: 1.5;
+  background-color: #f0f0f0;
+  padding: 20px;
+  text-align: center;
 }
 
-.logo {
-  display: block;
-  margin: 0 auto 2rem;
-}
-
-@media (min-width: 1024px) {
-  header {
-    display: flex;
-    place-items: center;
-    padding-right: calc(var(--section-gap) / 2);
-  }
-
-  .logo {
-    margin: 0 2rem 0 0;
-  }
-
-  header .wrapper {
-    display: flex;
-    place-items: flex-start;
-    flex-wrap: wrap;
-  }
+main {
+  padding: 20px;
 }
 </style>
