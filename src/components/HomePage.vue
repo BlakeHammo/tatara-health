@@ -3,7 +3,7 @@
 <template>
     <div>
       <header>
-        <img src="D:\Adelaide Uni Diploma\Projects\tatara-health\tatara-health\src\assets\Tatara-Health-Horizontal-Colour-Logo-RGB.jpg" alt="Tatara Health" id="Tatara-Banner">
+        <img src="D:\Adelaide Uni Diploma\Projects\tatara-health\tatara-health\src\assets\Tatara-Health-Horizontal-Logo.svg" alt="Tatara Health" id="Tatara-Banner">
       </header>
       
       <main>
@@ -45,7 +45,8 @@
   }
 
   #Tatara-Banner {
-    max-width: 100%;
+    padding-top: 20px;
+    max-width: 70%;
     height: auto;
   }
 

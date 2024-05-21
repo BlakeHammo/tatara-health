@@ -1,22 +1,22 @@
 <template>
   <NavBar @navigate="changePage"/>
   <div>
-    <header>
-      Tatara Health
-    </header>
-
     <main>
       <HomePage v-if="currentPage === 'home'" />
       <AboutPage v-if="currentPage === 'about'" />
       <BookingPage v-if="currentPage === 'booking'" />
       <ContactPage v-if="currentPage === 'contact'" />
       <FAQPage v-if="currentPage === 'FAQ'" />
+      
     </main>
+    <Footer />
   </div>
+  
 </template>
 
 <script setup>
-import NavBar from './components/NavBar.vue';
+import NavBar from './components/NavBar.vue'
+import Footer from './components/Footer.vue'
 import HomePage from './components/HomePage.vue'
 import AboutPage from './components/AboutPage.vue'
 import BookingPage from './components/BookingPage.vue'
@@ -37,7 +37,8 @@ const changePage = (page) => {
 </script>
 
 <style scoped>
-/* Add your global styles here */
+
+/* Add global styles here */
 header {
   padding: 20px;
   text-align: center;

@@ -19,6 +19,54 @@
         <p>
           What is naturopathy? 
         </p>
+        <p>
+          Qualifications and personal information
+        </p>
+        <p>
+          More text here
+        </p>
+        <p>
+          More in depth bio of me 
+        </p>
+        <p>
+          What is naturopathy? 
+        </p>
+        <p>
+          Qualifications and personal information
+        </p>
+        <p>
+          More text here
+        </p>
+        <p>
+          More in depth bio of me 
+        </p>
+        <p>
+          What is naturopathy? 
+        </p>
+        <p>
+          Qualifications and personal information
+        </p>
+        <p>
+          More text here
+        </p>
+        <p>
+          More in depth bio of me 
+        </p>
+        <p>
+          What is naturopathy? 
+        </p>
+        <p>
+          Qualifications and personal information
+        </p>
+        <p>
+          More text here
+        </p>
+        <p>
+          More in depth bio of me 
+        </p>
+        <p>
+          What is naturopathy? 
+        </p>
       </main>
     </div>
   </template>
