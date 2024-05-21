@@ -1,0 +1,38 @@
+<!--First Page of Website, Bio and Qualifications, Link to bookings page -->
+
+<template>
+    <div>
+      <header>
+        <h1>About Me</h1>
+      </header>
+      
+      <main>
+        <p>
+          Qualifications and personal information
+        </p>
+        <p>
+          More text here
+        </p>
+      </main>
+    </div>
+  </template>
+  
+  <script setup>
+  </script>
+  
+
+
+  
+  <style scoped>
+  /* Add your styles for the homepage here */
+  header {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align:center;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  </style>
+  
