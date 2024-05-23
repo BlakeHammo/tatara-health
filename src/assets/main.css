@@ -1,0 +1,10 @@
+@font-face {
+    font-family: 'french-typewriter';
+    src: url('/src/assets/fonts/french-typewriter-light-italic.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'french-typewriter', sans-serif;
+}
