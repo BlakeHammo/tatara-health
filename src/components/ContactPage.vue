@@ -3,17 +3,21 @@
 <template>
     <div>
       <header>
-        <h1>Contact Me</h1>
+        <h1>Contact</h1>
       </header>
       
       <main>
         <p>
-          Contact details (phone, email, address, etc) 
+          Email: chelsea@tatarahealth.com.au <br>
+          Phone: 0466 108 445 <br>
+          Instagram: @tatara.health
         </p>
-        <p>
-          Lots of other websites have those links where you can write your name and email and send a message through the webiste?? Maybe
- look into this?? 
-        </p>
+        
+        <div id="image-centered">
+          <img src="D:\Adelaide Uni Diploma\Projects\tatara-health\tatara-health\src\assets\IMG_0942.png" alt="Chelsea standing in a paddock next to an old gum tree" id="main-image">
+        </div>
+
+
       </main>
     </div>
   </template>
@@ -33,6 +37,17 @@
   
   main {
     padding: 20px;
+  }
+
+  #main-image {
+    max-width: 50%;
+    height: auto;
+  }
+
+  #image-centered {
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
   </style>
   
