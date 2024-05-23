@@ -7,21 +7,19 @@
       </header>
       
       <main>
-        <p>
-          At Tatara Health, we are committed to providing holistic and personalized naturopathic care to support your health and well-being.
+        <p id="SubHeading">
+          Evidence informed holistic health care
         </p>
-        <p>
-          Explore our services, learn more about naturopathy, and book your appointment today!
+        <div id="content-wrapper">
+          <img src="D:\Adelaide Uni Diploma\Projects\tatara-health\tatara-health\src\assets\IMG_0913.png" alt="Chelsea leaning against a gate" id="main-image">
+          <p id="MainText">
+          Tatara Health is a naturopathic clinic dedicated to improving health and
+          wellbeing with a root cause approach. Offering personalised treatment
+          plans backed by evidence informed holistic health care, Tatara Health
+          employs a wide range of healing modalities to help you achieve your health goals.
         </p>
-        <p>
-          First Page of Website
-        </p>
-        <p>
-          Bio and Qualifications
-        </p>
-        <p>
-          Link to Booking Page
-        </p>
+        </div>
+        
       </main>
     </div>
   </template>
@@ -48,6 +46,27 @@
     padding-top: 20px;
     max-width: 70%;
     height: auto;
+  }
+
+  #SubHeading {
+    text-align: center;
+    font-size:xx-large
+  }
+
+  #MainText {
+    text-align: center;
+  }
+
+  #content-wrapper {
+    display: flex;
+    align-items: center;
+
+  }
+
+  #main-image {
+    max-width: 50%;
+    height: auto;
+    padding-right: 20px;
   }
 
   </style>
