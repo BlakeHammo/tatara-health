@@ -13,9 +13,10 @@
             Chelsea holds a Bachelor of Health Sciences in Naturopathy and a Bachelor of Health and Medical Sciences in Public Health, 
             bringing a unique take to natural health care.
             </p>
-            <p>
+
+            <h3>
               Qualifications:
-            </p>
+            </h3>
 
             <li>Bachelor of Health and Medical Sciences in Public Health (University of Adelaide)</li>
             <li>Bachelor of Health Sciences in Naturopathy (Torrens University)</li>
@@ -36,9 +37,11 @@
 
           <img src="D:\Adelaide Uni Diploma\Projects\tatara-health\tatara-health\src\assets\IMG_0987.png" alt="Chelsea leaning against a tree" id="main-image">
         </div>
+        
+        <br>
 
         <div class="content-wrapper-vertical">
-          <div class="MainText">
+          <div class="MainText" id="bottom-text">
             <h3> What is Tatara Health? </h3>
             
             <p>Tatara: a 1000-acre farm located 15km south of Bordertown. The farm was purchased by my great grandparents in the 1950’s, and eventually 
@@ -50,6 +53,8 @@
               all things health that he inspired in his family and beyond.  
             </p>
           </div>
+
+          <br>
 
           <div class="content-wrapper-horizontal">
             <img src="D:\Adelaide Uni Diploma\Projects\tatara-health\tatara-health\src\assets\IMG_6399.jpeg" alt="Airial view of old farm" class="image">
@@ -88,6 +93,10 @@
     text-align: left;
   }
 
+  #bottom-text {
+    text-align: center;
+  }
+
   .content-wrapper-horizontal {
     display: flex;
     align-items: center;
@@ -103,7 +112,7 @@
   #main-image {
     max-width: 50%;
     height: auto;
-    padding-left: 20px;
+    padding-left: 50px;
   }
 
   .image {
@@ -111,6 +120,10 @@
     height: auto;
     padding-left: 20px;
     padding-right: 20px;
+  }
+
+  h3 {
+    margin-bottom: 0;
   }
   </style>
   

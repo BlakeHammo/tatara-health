@@ -52,6 +52,7 @@ const navigate = (page) => {
   color: white;
   text-decoration: none;
   font-weight: bold;
+  font-family: 'french-typewriter', sans-serif;
 }
 
 .navbar a:hover {

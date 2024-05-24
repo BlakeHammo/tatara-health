@@ -7,17 +7,17 @@
       </header>
       
       <main>
-        <p id="SubHeading">
+        <h3 id="SubHeading">
           Evidence informed holistic health care
-        </p>
+        </h3>
         <div id="content-wrapper">
           <img src="D:\Adelaide Uni Diploma\Projects\tatara-health\tatara-health\src\assets\IMG_0913.png" alt="Chelsea leaning against a gate" id="main-image">
-          <p id="MainText">
+          <h3 id="MainText">
           Tatara Health is a naturopathic clinic dedicated to improving health and
           wellbeing with a root cause approach. Offering personalised treatment
           plans backed by evidence informed holistic health care, Tatara Health
           employs a wide range of healing modalities to help you achieve your health goals.
-        </p>
+          </h3>
         </div>
         
       </main>
@@ -55,6 +55,8 @@
 
   #MainText {
     text-align: center;
+    font-weight: normal;
+    line-height: 25px;
   }
 
   #content-wrapper {

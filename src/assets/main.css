@@ -5,6 +5,27 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'PPAgrandir';
+    src: url('src/assets/fonts/PPAgrandir-GrandRegular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Tiempos';
+    src: url('src/assets/fonts/TiemposText-Regular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
 body {
+    font-family: 'Tiempos', serif;
+    font-size: 16px;
+    line-height: 25px;
+}
+
+h1, h2, h3, h4, h5 {
     font-family: 'french-typewriter', sans-serif;
 }
