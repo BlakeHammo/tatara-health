@@ -28,10 +28,6 @@
   
   <style scoped>
   /* Add your styles for the homepage here */
-  header {
-    padding: 20px;
-    text-align:center;
-  }
   
   main {
     padding: 20px;

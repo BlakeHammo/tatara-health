@@ -12,12 +12,18 @@
         </h3>
         <div id="content-wrapper">
           <img src="D:\Adelaide Uni Diploma\Projects\tatara-health\tatara-health\src\assets\IMG_0913.png" alt="Chelsea leaning against a gate" id="main-image">
-          <h3 id="MainText">
-          Tatara Health is a naturopathic clinic dedicated to improving health and
-          wellbeing with a root cause approach. Offering personalised treatment
-          plans backed by evidence informed holistic health care, Tatara Health
-          employs a wide range of healing modalities to help you achieve your health goals.
-          </h3>
+          
+          <div class="content-wrapper-vertical">
+            <h3 id="MainText">
+            Tatara Health is a naturopathic clinic dedicated to improving health and
+            wellbeing with a root cause approach. Offering personalised treatment
+            plans backed by evidence informed holistic health care, Tatara Health
+            employs a wide range of healing modalities to help you achieve your health goals.
+            </h3>
+            <img src="D:\Adelaide Uni Diploma\Projects\tatara-health\tatara-health\src\assets\Tatara-Health-Flowers.svg" alt="Tatara Health Brand Flowers" id="Tatara-Flowers">
+
+          </div>
+          
         </div>
         
       </main>
@@ -33,7 +39,7 @@
   <style scoped>
   /* Add your styles for the homepage here */
   header {
-    padding: 20px;
+    padding: 35px;
     text-align:center;
   }
   
@@ -50,25 +56,40 @@
 
   #SubHeading {
     text-align: center;
-    font-size:xx-large
+    font-size:xx-large;
+    margin-top: 0px;
   }
 
   #MainText {
     text-align: center;
     font-weight: normal;
     line-height: 25px;
+    padding-inline: 20px;
   }
 
   #content-wrapper {
     display: flex;
     align-items: center;
-
+    padding-top: 40px;
   }
 
   #main-image {
     max-width: 50%;
     height: auto;
     padding-right: 20px;
+  }
+
+  .content-wrapper-vertical {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  #Tatara-Flowers {
+    padding-top: 40px;
+    max-width: 30%;
+    height: auto;
   }
 
   </style>

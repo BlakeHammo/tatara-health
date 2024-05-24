@@ -23,9 +23,9 @@
             <li>NHAA Member </li>
             
 
-            <h3>A word from Chelsea</h3>
+            <h3 id="center-text">A word from Chelsea</h3>
 
-            <p>Fresh out of high school I was eager to study something in the health, with no realistic ideas of what this would look like for 
+            <p id="center-text">Fresh out of high school I was eager to study something in the health, with no realistic ideas of what this would look like for 
               me I stumbled into Public Health. I loved the concept of improving health at a community level, and preventing lifestyle diseases
                that face many Australian’s today. However, I soon realised that public health wasn’t for me. While my goal was to make 
                meaningful change for Australian’s, I felt that this wasn’t possible in the current public health landscape of Australia at 
@@ -39,9 +39,12 @@
         </div>
         
         <br>
+        <br>
+        <br>
+        <br>
 
         <div class="content-wrapper-vertical">
-          <div class="MainText" id="bottom-text">
+          <div class="MainText" id="center-text">
             <h3> What is Tatara Health? </h3>
             
             <p>Tatara: a 1000-acre farm located 15km south of Bordertown. The farm was purchased by my great grandparents in the 1950’s, and eventually 
@@ -81,7 +84,7 @@
   <style scoped>
   /* Add your styles for the homepage here */
   header {
-    padding: 20px;
+    padding: 35px;
     text-align: center;
   }
   
@@ -93,7 +96,7 @@
     text-align: left;
   }
 
-  #bottom-text {
+  #center-text {
     text-align: center;
   }
 

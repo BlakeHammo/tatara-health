@@ -30,3 +30,8 @@ body {
 h1, h2, h3, h4, h5 {
     font-family: 'french-typewriter', sans-serif;
 }
+
+header {
+    padding: 35px;
+    text-align:center;
+}
