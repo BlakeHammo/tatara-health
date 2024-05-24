@@ -3,7 +3,7 @@
 <template>
     <div>
       <header>
-        <h1>Who is Tatara Health</h1>
+        <h1>Who is Tatara Health?</h1>
       </header>
       
       <main>

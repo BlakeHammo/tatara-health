@@ -3,7 +3,7 @@
 <template>
     <div>
       <header>
-        <h1>Booking / Services</h1>
+        <h1>Book a Consult</h1>
       </header>
       
       <main>
@@ -49,7 +49,13 @@
             </p>
 
           </div>
-          <div>Place Holder for Booking integration</div>
+          
+          
+            <iframe 
+              class="simple-clinic"
+              src="https://tatara-health.simplecliniconline.com/diary"
+            ></iframe>
+          
         </div>
       </main>
     </div>
@@ -81,6 +87,18 @@
   .content-wrapper-horizontal {
     display: flex;
     align-items: center;
+  }
+
+  .simple-clinic {
+    width: 1000px;
+    height: 1300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  iframe {
+    border: none;
   }
   </style>
   
