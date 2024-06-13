@@ -14,7 +14,7 @@
           <img src="D:\Adelaide Uni Diploma\Projects\tatara-health\tatara-health\src\assets\IMG_0913.png" alt="Chelsea leaning against a gate" id="main-image">
           
           <div class="content-wrapper-vertical">
-            <h3 id="MainText">
+            <h3 id="MainText"> <!--class=hidden-->
             Tatara Health is a naturopathic clinic dedicated to improving health and
             wellbeing with a root cause approach. Offering personalised treatment
             plans backed by evidence informed holistic health care, Tatara Health
@@ -30,7 +30,15 @@
     </div>
   </template>
   
+  
   <script setup>
+    import { onMounted } from 'vue';
+    import { fadeIn } from '../mixins/fadeIn';
+
+    onMounted(() => {
+      fadeIn();
+    });
+  
   </script>
   
 
