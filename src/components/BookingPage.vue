@@ -82,6 +82,8 @@
   /* Add your styles for the homepage here */
   main {
     padding: 20px;
+    padding-left: 15%;
+    padding-right: 15%;
   }
 
   .MainText {
@@ -96,7 +98,7 @@
 
   .simple-clinic {
     width: 900px;
-    height: 1300px;
+    
     display: flex;
     justify-content: center;
     align-items: center;

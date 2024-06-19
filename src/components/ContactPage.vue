@@ -2,21 +2,21 @@
 
 <template>
     <div>
-      <header>
-        <h1>Contact</h1>
-      </header>
       
       <main>
-        <p>
-          Email: chelsea@tatarahealth.com.au <br>
-          Phone: 0466 108 445 <br>
-          Instagram: @tatara.health
-        </p>
-        
-        <div id="image-centered">
-          <img src="D:\Adelaide Uni Diploma\Projects\tatara-health\tatara-health\src\assets\IMG_0942.png" alt="Chelsea standing in a paddock next to an old gum tree" id="main-image">
+        <div>
+          <h1 class="centered">Get in touch</h1>
+          <p class="centered">
+            To get in touch with Chelsea, please email <a href="mailto:chelsea@tatarahealth.com.au?subject=Website%20Inquiry">chelsea@tatarahealth.com.au</a><br>
+            or call 0466 108 445 <br>
+            Instagram: @tatara.health <br>
+            Facebook: 
+          </p>
+          
+          <div id="image-centered">
+            <img src="D:\Adelaide Uni Diploma\Projects\tatara-health\tatara-health\src\assets\IMG_0942.png" alt="Chelsea standing in a paddock next to an old gum tree" id="main-image">
+          </div>
         </div>
-
 
       </main>
     </div>
@@ -33,11 +33,21 @@
   
   main {
     padding: 20px;
+    padding-left: 15%;
+    padding-right: 15%;
   }
 
   #main-image {
     max-width: 50%;
     height: auto;
+  }
+
+  .centered {
+    text-align: center;
+  }
+
+  h1 {
+    padding-top: 20px;
   }
 
   #image-centered {

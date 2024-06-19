@@ -31,6 +31,8 @@
   
   main {
     padding: 20px;
+    padding-left: 15%;
+    padding-right: 15%;
   }
   </style>
   
