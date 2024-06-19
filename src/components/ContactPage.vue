@@ -9,7 +9,7 @@
           <p class="centered">
             To get in touch with Chelsea, please email <a href="mailto:chelsea@tatarahealth.com.au?subject=Website%20Inquiry">chelsea@tatarahealth.com.au</a><br>
             or call 0466 108 445 <br>
-            Instagram: @tatara.health <br>
+            Instagram: <a href="https://www.instagram.com/tatara.health/">@tatara.health</a><br>
             Facebook: 
           </p>
           
