@@ -12,7 +12,17 @@
             Instagram: <a href="https://www.instagram.com/tatara.health/">@tatara.health</a><br>
             Facebook: 
           </p>
-          
+          <br>
+
+          <div class="content-wrapper-horizontal"></div>
+          <!--Placeholders
+            <a href=”https://www.google.com“> <img src=”your_image.gif” width=”100″ height=”132″> </a>
+            <a href=”https://www.google.com“> <img src=”your_image.gif” width=”100″ height=”132″> </a>
+            <a href=”https://www.google.com“> <img src=”your_image.gif” width=”100″ height=”132″> </a>
+            <a href=”https://www.google.com“> <img src=”your_image.gif” width=”100″ height=”132″> </a>
+            <a href=”https://www.google.com“> <img src=”your_image.gif” width=”100″ height=”132″> </a>
+            <a href=”https://www.google.com“> <img src=”your_image.gif” width=”100″ height=”132″> </a>
+          -->
           <div id="image-centered">
             <img src="D:\Adelaide Uni Diploma\Projects\tatara-health\tatara-health\src\assets\IMG_0942.png" alt="Chelsea standing in a paddock next to an old gum tree" id="main-image">
           </div>
@@ -54,6 +64,11 @@
     display: flex;
     align-items: center;
     justify-content: center;
+  }
+
+  .content-wrapper-horizontal {
+    display: flex;
+    align-items: center;
   }
   </style>
   
