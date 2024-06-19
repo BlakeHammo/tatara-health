@@ -14,7 +14,7 @@
           </p>
           <br>
 
-          <div class="content-wrapper-horizontal"></div>
+          <div class="content-wrapper-horizontal">
           <!--Placeholders
             <a href=”https://www.google.com“> <img src=”your_image.gif” width=”100″ height=”132″> </a>
             <a href=”https://www.google.com“> <img src=”your_image.gif” width=”100″ height=”132″> </a>
@@ -23,9 +23,13 @@
             <a href=”https://www.google.com“> <img src=”your_image.gif” width=”100″ height=”132″> </a>
             <a href=”https://www.google.com“> <img src=”your_image.gif” width=”100″ height=”132″> </a>
           -->
+          </div>
+          
+          
           <div id="image-centered">
             <img src="D:\Adelaide Uni Diploma\Projects\tatara-health\tatara-health\src\assets\IMG_0942.png" alt="Chelsea standing in a paddock next to an old gum tree" id="main-image">
           </div>
+
         </div>
 
       </main>
