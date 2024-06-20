@@ -23,11 +23,14 @@
             <a class="link-container" href="https://www.instagram.com/p/C7Vq6RMyMGF/?img_index=1"> <img class="linked-image" src="D:\Adelaide Uni Diploma\Projects\tatara-health\tatara-health\src\assets\6887433F-82A7-4E9B-B826-2D2847D4CD81 2.jpeg" > </a>
           
           </div>
-          
-          
-          
-
         </div>
+
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
 
       </main>
     </div>

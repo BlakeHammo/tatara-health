@@ -7,9 +7,9 @@
       <BookingPage v-if="currentPage === 'booking'" />
       <ContactPage v-if="currentPage === 'contact'" />
       <FAQPage v-if="currentPage === 'FAQ'" />
-      
+      <Footer />
     </main>
-    <Footer />
+    
   </div>
   
 </template>
