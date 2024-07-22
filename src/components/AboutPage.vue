@@ -8,7 +8,7 @@
       
       <main>
         <div class="content-wrapper-horizontal">
-          <div class="MainText">
+          <div class="MainText fade-in-text">
             <p>
             Chelsea holds a Bachelor of Health Sciences in Naturopathy and a Bachelor of Health and Medical Sciences in Public Health, 
             bringing a unique take to natural health care.

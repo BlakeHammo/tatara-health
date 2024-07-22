@@ -1,14 +1,14 @@
 <!--First Page of Website, Bio and Qualifications, Link to bookings page -->
 
 <template>
-    <div>
+    <div class="fade-in-text">
       <header>
         <h1>Book a Consult</h1>
       </header>
       
       <main>
         <div class="content-wrapper-horizontal">
-          <div class="MainText">
+          <div class="MainText ">
             <h3>Initial Consult (60-90 minutes) - $170</h3>
             <p>What to Expect:<br>
               During your initial consultation at Tatara Health, Chelsea will take you through a comprehensive 
@@ -62,10 +62,10 @@
           </div>
           
           
-            <iframe 
-              class="simple-clinic"
-              src="https://tatara-health.simplecliniconline.com/diary"
-            ></iframe>
+          <iframe 
+            class="simple-clinic"
+            src="https://tatara-health.simplecliniconline.com/diary"
+          ></iframe>
           
         </div>
       </main>

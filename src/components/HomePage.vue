@@ -13,7 +13,7 @@
         <div id="content-wrapper">
           <img src="D:\Adelaide Uni Diploma\Projects\tatara-health\tatara-health\src\assets\IMG_0913.png" alt="Chelsea leaning against a gate" id="main-image">
           
-          <div class="content-wrapper-vertical">
+          <div class="content-wrapper-vertical fade-in-text" >
             <h3 id="MainText">
             Tatara Health is a naturopathic clinic dedicated to improving health and
             wellbeing with a root cause approach. Offering personalised treatment
@@ -86,39 +86,12 @@
     flex-direction: column;
     align-items: center;
     gap: 20px;
-    animation: fadeIn 2s;
-    -webkit-animation: fadeIn 2s;
   }
+
   #Tatara-Flowers {
     padding-top: 40px;
     max-width: 30%;
     height: auto;
-  }
-
-  /* Fade in and out  */
-  @keyframes fadeIn {
-    0% { opacity: 0; }
-    100% { opacity: 1; }
-  }
-  /* following is different browser support*/
-  @-webkit-keyframes fadeIn {
-  0% { opacity: 0; }
-  100% { opacity: 1; }
-  }
-
-  @-moz-keyframes fadeIn {
-    0% { opacity: 0; }
-    100% { opacity: 1; }
-  }
-
-  @-o-keyframes fadeIn {
-  0% { opacity: 0; }
-  100% { opacity: 1; }
-  }
-
-  @-ms-keyframes fadeIn {
-    0% { opacity: 0; }
-    100% { opacity: 1; }
   }
 
   </style>

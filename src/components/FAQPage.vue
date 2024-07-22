@@ -9,7 +9,7 @@
       <main>
         <div v-for="(faq, index) in faqs" :key="index" class="faq-item">
           <h3 @click="toggleParagraph(index)">{{ faq.question }}</h3>
-          <p v-show="faq.isVisible" class="faq-answer">
+          <p v-show="faq.isVisible" class="faq-answer fade-in-text">
             {{ faq.answer }}
           </p>
         </div>
