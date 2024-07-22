@@ -86,12 +86,39 @@
     flex-direction: column;
     align-items: center;
     gap: 20px;
+    animation: fadeIn 2s;
+    -webkit-animation: fadeIn 2s;
   }
-
   #Tatara-Flowers {
     padding-top: 40px;
     max-width: 30%;
     height: auto;
+  }
+
+  /* Fade in and out  */
+  @keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  /* following is different browser support*/
+  @-webkit-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+  }
+
+  @-moz-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+
+  @-o-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+  }
+
+  @-ms-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
   }
 
   </style>
