@@ -4,7 +4,7 @@
     <div>
       
       <main>
-        <div>
+        <div class="fade-in-text">
           <h1 class="centered">Get in touch</h1>
           <p class="centered">
             To get in touch with Chelsea, please email <a href="mailto:chelsea@tatarahealth.com.au?subject=Website%20Inquiry">chelsea@tatarahealth.com.au</a><br>
@@ -23,6 +23,11 @@
             <a class="link-container" href="https://www.instagram.com/p/C7Vq6RMyMGF/?img_index=1"> <img class="linked-image" src="D:\Adelaide Uni Diploma\Projects\tatara-health\tatara-health\src\assets\6887433F-82A7-4E9B-B826-2D2847D4CD81 2.jpeg" > </a>
           
           </div>
+          <p>
+
+          </p>
+          <br>
+          
         </div>
 
         <br>

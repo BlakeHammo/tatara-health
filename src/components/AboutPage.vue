@@ -6,9 +6,9 @@
         <h1>Who is Tatara Health?</h1>
       </header>
       
-      <main>
+      <main class="fade-in-text">
         <div class="content-wrapper-horizontal">
-          <div class="MainText fade-in-text">
+          <div class="MainText">
             <p>
             Chelsea holds a Bachelor of Health Sciences in Naturopathy and a Bachelor of Health and Medical Sciences in Public Health, 
             bringing a unique take to natural health care.
