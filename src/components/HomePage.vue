@@ -38,6 +38,7 @@
   
   <style scoped>
   /* Add your styles for the homepage here */
+  /* default desktop view*/
   header {
     padding: 35px;
     text-align:center;
@@ -93,6 +94,72 @@
     max-width: 30%;
     height: auto;
   }
+
+    /* mobile optimised*/
+  @media (min-width: 320px) and (max-width: 999px) {
+    header {
+      padding-left: 0%;
+      padding-right: 0%;
+      text-align:center;
+      padding-bottom: 10px;
+    }
+  
+    main {
+      padding: 0px;
+      padding-left: 0%;
+      padding-right: 0%;
+      
+    }
+
+    #Tatara-Banner {
+      padding-top: 10%;
+      max-width: 100%;
+      height: auto;
+    }
+
+    #SubHeading {
+      text-align: center;
+      font-size:xx-large;
+      margin-top: 0px;
+      margin-bottom: 0px;
+      padding-left: 5%;
+      padding-right: 5%;
+    }
+
+    #MainText {
+      text-align: center;
+      font-weight: normal;
+      line-height: 25px;
+      padding-inline: 20px;
+    }
+
+    #content-wrapper {
+      display:block;
+      align-items: center;
+      padding-top: 40px;
+    }
+
+    #main-image {
+      max-width: 100%;
+      height: auto;
+      padding-right: 0px;
+    }
+
+    .content-wrapper-vertical {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 0px;
+    }
+
+    #Tatara-Flowers {
+      padding-top: 10px;
+      max-width: 30%;
+      height: auto;
+      margin-bottom: 20px;
+    }
+  }
+  
 
   </style>
   
