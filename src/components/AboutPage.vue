@@ -130,5 +130,56 @@
   h3 {
     margin-bottom: 0;
   }
+
+  /* mobile optimised*/
+  @media (min-width: 320px) and (max-width: 999px) {
+    header {
+      padding: 35px;
+      text-align: center;
+    }
+  
+    main {
+      padding: 0px;
+      padding-left: 0%;
+      padding-right: 0%;
+    }
+
+    .MainText {
+      text-align: left;
+    }
+
+    #center-text {
+      text-align: center;
+    }
+
+    .content-wrapper-horizontal {
+      display: block;
+      align-items: center;
+    }
+
+    .content-wrapper-vertical {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+    }
+
+    #main-image {
+      max-width: 100%;
+      height: auto;
+      padding-left: 0px;
+    }
+
+    .image {
+      max-width:30%;
+      height: auto;
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+
+    h3 {
+      margin-bottom: 0;
+    }
+  }
   </style>
   
