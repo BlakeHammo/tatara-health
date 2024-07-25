@@ -120,5 +120,29 @@
   max-height: 1000px; /* Arbitrary large value to ensure full expansion */
 }
 
+/* mobile optimised*/
+@media (min-width: 320px) and (max-width: 999px) {
+  main {
+    padding: 0px;
+    padding-left: 0%;
+    padding-right: 0%;
+  }
+
+  .faq-item {
+    margin-bottom: 20px;
+    padding-bottom: 5px;
+  }
+
+  .faq-answer {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+  }
+
+  .faq-answer[style] {
+    max-height: 1000px; /* Arbitrary large value to ensure full expansion */
+  }
+}
+
   </style>
   

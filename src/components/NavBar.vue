@@ -58,4 +58,42 @@ const navigate = (page) => {
 .navbar a:hover {
   text-decoration: underline;
 }
+
+/* mobile optimised*/
+@media (min-width: 320px) and (max-width: 999px) {
+  .navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #FC9AF8; /* Primary color */
+    color: #fff7e9;
+    padding: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+  }
+
+  .navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .navbar li {
+    margin: 0;
+  }
+
+  .navbar a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'french-typewriter', sans-serif;
+  }
+
+  .navbar a:hover {
+    text-decoration: underline;
+  }
+}
 </style>
