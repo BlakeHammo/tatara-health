@@ -57,6 +57,7 @@
   .linked-image {
     height: 100%;
     width: 100%;
+    margin-bottom: 20px;
   }
 
   .link-container {
@@ -68,11 +69,6 @@
     padding: 20px;
     padding-left: 15%;
     padding-right: 15%;
-  }
-
-  #main-image {
-    max-width: 50%;
-    height: auto;
   }
 
   .centered {
@@ -92,6 +88,48 @@
   .content-wrapper-horizontal {
     display: flex;
     align-items: center;
+  }
+
+  /* mobile optimised*/
+  @media (min-width: 320px) and (max-width: 999px) {
+    a:link, a:visited, a:hover, a:active {
+    color: black;
+  }
+
+    .linked-image {
+      height: 100%;
+      width: 100%;
+    }
+
+    .link-container {
+      align-items: center;
+      padding: 0px;
+    }
+
+    main {
+      padding: 0px;
+      padding-left: 0%;
+      padding-right: 0%;
+    }
+
+    .centered {
+      text-align: center;
+    }
+
+    h1 {
+      padding-top: 30px;
+    }
+
+    #image-centered {
+      display: block;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .content-wrapper-horizontal {
+      display: block;
+      align-items: center;
+    }
   }
   </style>
   
