@@ -15,7 +15,7 @@
     position: absolute;
     left: 0;
     width: 100%;
-    background-color: #FC9AF8; /* Primary color */
+    background-color: #4E7E38; /* Primary color */
     color: #fff7e9;
     text-align: center;
     box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);

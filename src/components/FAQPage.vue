@@ -3,10 +3,10 @@
 <template>
     <div>
       <header>
-        <h1>FAQs</h1>
+        <h1 class="fade-in-text">FAQ's</h1>
       </header>
       
-      <main>
+      <main class="fade-in-text">
         <div v-for="(faq, index) in faqs" :key="index" class="faq-item">
           <h3 @click="toggleParagraph(index)">{{ faq.question }}</h3>
           <p v-show="faq.isVisible" class="faq-answer fade-in-text">

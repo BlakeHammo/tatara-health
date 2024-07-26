@@ -2,18 +2,18 @@
 
 <template>
     <div>
-      <header>
+      <header class="fade-in-text">
         <img src="D:\Adelaide Uni Diploma\Projects\tatara-health\tatara-health\src\assets\Tatara-Health-Horizontal-Logo.svg" alt="Tatara Health" id="Tatara-Banner">
       </header>
       
-      <main>
+      <main class="fade-in-text">
         <h3 id="SubHeading">
           Evidence informed holistic health care
         </h3>
         <div id="content-wrapper">
           <img src="D:\Adelaide Uni Diploma\Projects\tatara-health\tatara-health\src\assets\IMG_0913.png" alt="Chelsea leaning against a gate" id="main-image">
           
-          <div class="content-wrapper-vertical fade-in-text" >
+          <div class="content-wrapper-vertical" >
             <h3 id="MainText">
             Tatara Health is a naturopathic clinic dedicated to improving health and
             wellbeing with a root cause approach. Offering personalised treatment

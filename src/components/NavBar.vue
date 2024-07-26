@@ -1,11 +1,12 @@
 <template>
     <nav class="navbar">
       <ul>
+        <img src="D:\Adelaide Uni Diploma\Projects\tatara-health\tatara-health\src\assets\Flower-01.svg" alt="Pink Flower" id="pink-flower-header">
         <li><a href="#home" @click.prevent="navigate('home')">Home</a></li>
         <li><a href="#about" @click.prevent="navigate('about')">About</a></li>
         <li><a href="#booking" @click.prevent="navigate('booking')">Booking</a></li>
+        <li><a href="#FAQ" @click.prevent="navigate('FAQ')">FAQ's</a></li>
         <li><a href="#contact" @click.prevent="navigate('contact')">Contact</a></li>
-        <li><a href="#FAQ" @click.prevent="navigate('FAQ')">FAQs</a></li>
       </ul>
     </nav>
 </template>
@@ -29,9 +30,9 @@ const navigate = (page) => {
   top: 0;
   left: 0;
   width: 100%;
-  background-color: #FC9AF8; /* Primary color */
+  background-color: #4E7E38; /* Primary color */
   color: #fff7e9;
-  padding: 1rem;
+  padding: 5px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   z-index: 1000;
 }
@@ -45,7 +46,7 @@ const navigate = (page) => {
 }
 
 .navbar li {
-  margin: 0;
+  margin: 10px;
 }
 
 .navbar a {
@@ -53,10 +54,18 @@ const navigate = (page) => {
   text-decoration: none;
   font-weight: bold;
   font-family: 'french-typewriter', sans-serif;
+  
 }
 
-.navbar a:hover {
+.navbar a:hover{
   text-decoration: underline;
+}
+
+
+#pink-flower-header {
+  width: 3%;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
 /* mobile optimised*/
@@ -66,7 +75,7 @@ const navigate = (page) => {
     top: 0;
     left: 0;
     width: 100%;
-    background-color: #FC9AF8; /* Primary color */
+    background-color: #4E7E38; /* Primary color */
     color: #fff7e9;
     padding: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -94,6 +103,12 @@ const navigate = (page) => {
 
   .navbar a:hover {
     text-decoration: underline;
+  }
+
+  #pink-flower-header {
+    width: 5%;
+    padding-top: 5px;
+    padding-bottom: 5px;
   }
 }
 </style>
