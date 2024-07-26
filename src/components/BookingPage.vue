@@ -107,5 +107,36 @@
   iframe {
     border: none;
   }
+
+  /* mobile optimised*/
+  @media (min-width: 320px) and (max-width: 999px) {
+    main {
+      padding: 0px;
+      padding-left: 0%;
+      padding-right: 0%;
+    }
+
+    .MainText {
+      text-align: left;
+      max-width: 100%;
+      padding-right: 0px;
+    }
+
+    .content-wrapper-horizontal {
+      display: block;
+    }
+
+    .simple-clinic {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    iframe {
+      border: none;
+      height: 2300px;
+    }
+  }
   </style>
   
