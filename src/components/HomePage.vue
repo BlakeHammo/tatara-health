@@ -79,7 +79,8 @@
   #main-image {
     max-width: 50%;
     height: auto;
-    padding-right: 20px;
+    margin-right: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
   .content-wrapper-vertical {
@@ -142,7 +143,8 @@
     #main-image {
       max-width: 100%;
       height: auto;
-      padding-right: 0px;
+      margin-right: 0px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     }
 
     .content-wrapper-vertical {

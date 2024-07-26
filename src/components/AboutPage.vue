@@ -8,6 +8,9 @@
       
       <main class="fade-in-text">
         <div class="content-wrapper-horizontal">
+          
+          <img src="D:\Adelaide Uni Diploma\Projects\tatara-health\tatara-health\src\assets\IMG_0987.png" alt="Chelsea leaning against a tree" id="main-image">
+          
           <div class="MainText">
             <p>
             Chelsea holds a Bachelor of Health Sciences in Naturopathy and a Bachelor of Health and Medical Sciences in Public Health, 
@@ -35,7 +38,7 @@
                healthiest versions of themselves. </p>
           </div>
 
-          <img src="D:\Adelaide Uni Diploma\Projects\tatara-health\tatara-health\src\assets\IMG_0987.png" alt="Chelsea leaning against a tree" id="main-image">
+          
         </div>
         
         <br>
@@ -117,7 +120,8 @@
   #main-image {
     max-width: 50%;
     height: auto;
-    padding-left: 50px;
+    margin-right: 50px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
   .image {
@@ -167,7 +171,8 @@
     #main-image {
       max-width: 100%;
       height: auto;
-      padding-left: 0px;
+      margin-right: 0px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     }
 
     .image {
