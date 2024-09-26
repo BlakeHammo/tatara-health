@@ -7,11 +7,23 @@
       </header>
       
       <main class="fade-in-text">
-        <div v-for="(faq, index) in faqs" :key="index" class="faq-item">
-          <h3 @click="toggleParagraph(index)">{{ faq.question }}</h3>
-          <p v-show="faq.isVisible" class="faq-answer fade-in-text">
-            {{ faq.answer }}
-          </p>
+        <div class="content-wrapper-horizontal">
+          <div class="flower-left">
+            <img src="D:\Adelaide Uni Diploma\Projects\tatara-health\tatara-health\src\assets\Flower-02-Stem.svg" alt="Pink Flower With Stem" class="flower-with-stem">
+          </div>
+          
+          <div class="centre">
+            <div v-for="(faq, index) in faqs" :key="index" class="faq-item center-text">
+            <h3 @click="toggleParagraph(index)">{{ faq.question }}</h3>
+            <p v-show="faq.isVisible" class="faq-answer fade-in-text center-text">
+              {{ faq.answer }}
+            </p>
+            </div>
+          </div>
+          
+          <div class="flower-right">
+            <img src="D:\Adelaide Uni Diploma\Projects\tatara-health\tatara-health\src\assets\Flower-03-Stem.svg" alt="Pink Flower With Stem" class="flower-with-stem">
+          </div>
         </div>
       </main>
     </div>
@@ -101,8 +113,8 @@
   
   main {
     padding: 20px;
-    padding-left: 15%;
-    padding-right: 15%;
+    padding-left: 0%;
+    padding-right: 0%;
   }
 
   .faq-item {
@@ -118,6 +130,31 @@
 
 .faq-answer[style] {
   max-height: 1000px; /* Arbitrary large value to ensure full expansion */
+}
+
+.center-text {
+  text-align: center;
+}
+
+.content-wrapper-horizontal {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; /* Ensure everything aligns vertically */
+  text-align: center;
+}
+
+.flower-with-stem {
+  max-width: 50%; /* Ensure images are responsive */
+  height: auto;
+}
+
+.flower-left, .flower-right {
+  flex-basis: 20%; /* Limit the space each image occupies */
+}
+
+.centre {
+  max-width: 50%;
+  margin: 16px;
 }
 
 /* mobile optimised*/
@@ -142,6 +179,16 @@
   .faq-answer[style] {
     max-height: 1000px; /* Arbitrary large value to ensure full expansion */
   }
+
+  .content-wrapper-horizontal {
+    flex-direction: column; /* Stack vertically on smaller screens */
+    padding: 0;
+  }
+
+  .centre {
+    max-width: 100%;
+    margin: 16px;
+}
 }
 
   </style>
