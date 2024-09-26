@@ -12,8 +12,6 @@
 
     <style scoped>
 .footer {
-    position: absolute;
-    left: 0;
     width: 100%;
     background-color: #4E7E38; /* Primary color */
     color: #fff7e9;

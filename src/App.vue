@@ -1,17 +1,17 @@
 <template>
-  <NavBar @navigate="changePage"/>
-  <div>
-    <main>
-      <HomePage v-if="currentPage === 'home'" />
-      <AboutPage v-if="currentPage === 'about'" />
-      <BookingPage v-if="currentPage === 'booking'" />
-      <ContactPage v-if="currentPage === 'contact'" />
-      <FAQPage v-if="currentPage === 'FAQ'" />
-      <Footer />
-    </main>
-    
+  <div class="page-container"> <!-- New container for flexbox layout -->
+    <NavBar @navigate="changePage"/>
+    <div class="content-wrapper"> <!-- Wrapper for the content -->
+      <main>
+        <HomePage v-if="currentPage === 'home'" />
+        <AboutPage v-if="currentPage === 'about'" />
+        <BookingPage v-if="currentPage === 'booking'" />
+        <ContactPage v-if="currentPage === 'contact'" />
+        <FAQPage v-if="currentPage === 'FAQ'" />
+      </main>
+    </div>
   </div>
-  
+  <Footer /> <!-- Footer stays at the bottom -->
 </template>
 
 <script setup>
@@ -31,14 +31,29 @@ const currentPage = ref('home') // Set default page to home
 const changePage = (page) => {
   currentPage.value = page
 }
-
-
-// Example: changePage('booking') to navigate to the booking page
 </script>
 
 <style scoped>
+/* Flexbox layout for the entire page */
+.page-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Ensures the page is at least the full viewport height */
+}
 
-/* Add global styles here */
+/* Content grows to fill space between the navbar and footer */
+.content-wrapper {
+  flex: 1;
+}
+
+/* Footer stays at the bottom */
+footer {
+  background-color: #f8f9fa; /* Customize your footer styling */
+  padding: 20px;
+  text-align: center;
+}
+
+/* General styling */
 header {
   padding: 20px;
   text-align: center;
