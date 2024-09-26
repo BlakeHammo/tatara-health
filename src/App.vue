@@ -1,7 +1,8 @@
 <template>
-  <div class="page-container"> <!-- New container for flexbox layout -->
-    <NavBar @navigate="changePage"/>
-    <div class="content-wrapper"> <!-- Wrapper for the content -->
+  <div class="page-container"> <!-- Flexbox container -->
+    <NavBar @navigate="changePage" />
+    
+    <div class="content-wrapper"> <!-- Main content wrapper -->
       <main>
         <HomePage v-if="currentPage === 'home'" />
         <AboutPage v-if="currentPage === 'about'" />
@@ -10,8 +11,9 @@
         <FAQPage v-if="currentPage === 'FAQ'" />
       </main>
     </div>
+    
+    <Footer /> <!-- Footer remains at the bottom -->
   </div>
-  <Footer /> <!-- Footer stays at the bottom -->
 </template>
 
 <script setup>
@@ -34,26 +36,29 @@ const changePage = (page) => {
 </script>
 
 <style scoped>
-/* Flexbox layout for the entire page */
+/* Ensure the page takes up the full height and the footer stays at the bottom */
 .page-container {
   display: flex;
   flex-direction: column;
-  min-height: 100vh; /* Ensures the page is at least the full viewport height */
+  min-height: 100vh; /* Ensures the page container fills the entire viewport height */
 }
 
-/* Content grows to fill space between the navbar and footer */
+/* This content wrapper expands to take up all the available space between the navbar and footer */
 .content-wrapper {
   flex: 1;
+  display: flex;
+  flex-direction: column;
 }
 
-/* Footer stays at the bottom */
+/* Footer styles to make it stick to the bottom */
 footer {
-  background-color: #f8f9fa; /* Customize your footer styling */
+  background-color: #f8f9fa; /* Customize your footer background color */
   padding: 20px;
   text-align: center;
+  margin-top: auto; /* Pushes the footer to the bottom of the container */
 }
 
-/* General styling */
+/* Header and general page styles */
 header {
   padding: 20px;
   text-align: center;
@@ -61,9 +66,10 @@ header {
 
 main {
   padding: 20px;
+  flex-grow: 1; /* Ensures the main content expands to fill available space */
 }
 
 body {
-  margin-top: 60px; /* Ensure content is not hidden behind the fixed navbar */
+  margin-top: 60px; /* Prevents content from being hidden behind the navbar */
 }
 </style>
