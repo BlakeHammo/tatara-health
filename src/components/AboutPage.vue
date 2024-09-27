@@ -15,7 +15,7 @@
           
             <h3 id="center-text" class="margin">A word from Chelsea</h3>
 
-            <p id="center-text" class="margin">Fresh out of high school I was eager to study something in the health, with no realistic ideas of what this would look like for 
+            <p id="center-text" class="margin">Fresh out of high school I was eager to study something in the health industry, with no realistic ideas of what this would look like for 
               me I stumbled into Public Health. I loved the concept of improving health at a community level, and preventing lifestyle diseases
                that face many Australian’s today. However, I soon realised that public health wasn’t for me. While my goal was to make 
                meaningful change for Australian’s, I felt that this wasn’t possible in the current public health landscape of Australia at 
@@ -138,6 +138,7 @@
     max-width: 50%;
     height: auto;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
   }
 
   .image {
@@ -146,6 +147,7 @@
     margin-left: 20px;
     margin-right: 20px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
   }
 
   h3 {

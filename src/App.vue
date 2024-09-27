@@ -32,6 +32,10 @@ const currentPage = ref('home') // Set default page to home
 // Function to change current page
 const changePage = (page) => {
   currentPage.value = page
+  window.scrollTo({
+    top: 0,
+    behavior: 'smooth' // Optional: adds smooth scrolling
+  });
 }
 </script>
 

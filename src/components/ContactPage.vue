@@ -58,6 +58,7 @@
     height: 100%;
     width: 100%;
     margin-bottom: 20px;
+    border-radius: 20px;
   }
 
   .link-container {

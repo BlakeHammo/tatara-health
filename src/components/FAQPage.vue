@@ -144,12 +144,13 @@
 }
 
 .flower-with-stem {
-  max-width: 50%; /* Ensure images are responsive */
+  max-width: 70%; /* Ensure images are responsive */
   height: auto;
 }
 
 .flower-left, .flower-right {
   flex-basis: 20%; /* Limit the space each image occupies */
+  margin-top: auto;
 }
 
 .centre {
