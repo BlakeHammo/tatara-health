@@ -31,7 +31,7 @@
             </p>
             <br>
 
-            <h3>Followup Consult (30-45 minutes) - $90</h3>
+            <h3>Follow-up Consult (30-45 minutes) - $90</h3>
             <p><strong>What to Expect</strong><br>
               Your follow-up consultation will take place 4-6 weeks after your initial visit. During this session,
               Chelsea will review the remedies, diet, and lifestyle changes previously recommended, assess your

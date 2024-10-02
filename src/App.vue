@@ -9,10 +9,11 @@
         <BookingPage v-if="currentPage === 'booking'" />
         <ContactPage v-if="currentPage === 'contact'" />
         <FAQPage v-if="currentPage === 'FAQ'" />
+        <Terms v-if="currentPage === 'terms'"/>
       </main>
     </div>
     
-    <Footer /> <!-- Footer remains at the bottom -->
+    <Footer @navigate="changePage"/> <!-- Footer remains at the bottom -->
   </div>
 </template>
 
@@ -24,6 +25,7 @@ import AboutPage from './components/AboutPage.vue'
 import BookingPage from './components/BookingPage.vue'
 import ContactPage from './components/ContactPage.vue'
 import FAQPage from './components/FAQPage.vue'
+import Terms from './components/Terms.vue'
 
 import { ref } from 'vue'
 
