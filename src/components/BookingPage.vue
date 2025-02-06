@@ -16,7 +16,7 @@
           
           <div class="MainText">
             
-            <h3>Initial Consult (60-90 minutes) - $170</h3>
+            <h3>Initial Consult (60-90 minutes) - $185</h3>
             <p><strong>What to Expect</strong><br>
               During your initial consultation at Tatara Health, Chelsea will take you through a comprehensive 
               review of your health concerns, an in-depth discussion of all body systems, and an analysis of your 
