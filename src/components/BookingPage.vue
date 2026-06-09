@@ -64,7 +64,7 @@
               optimal health and allows you to ask any questions you might have about our services. It's 
               the perfect opportunity to ensure we’re the right fit for your holistic health needs.
             </p>
-            <h5>Please note all in-person consultations are held in Bordertown, South Australia</h5>
+            <h5>Please note in-person consults are available at both the Cervus Allied Health Clinic in Essendon every Thursday, and also in Bordertown on a monthly basis.</h5>
 
           </div>
           
